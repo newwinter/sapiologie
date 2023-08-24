@@ -38,9 +38,11 @@ const SideBar = () => {
           showSidebar ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex justify-around">
+        <div className="flex justify-around content-center">
           <img src={logo} alt="logo sapiologie" className="w-6" />
-          <h2>Sapiologie</h2>
+          <div className="flex content-center">
+            <h2>Sapiologie</h2>
+          </div>
         </div>
       </div>
     </div>

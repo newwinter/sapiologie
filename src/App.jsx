@@ -1,15 +1,22 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import SideBar from "./components/SideBar.jsx";
+import Home from "./components/Home"
+
 
 function App() {
+
+
+
   return (
     <>
-      <div className="font-inter">
-        <h1 className="flex flex-col items-center justify-center min-h-screen py-2 text-3xl font-bold underline">
-          coucou
-        </h1>
-        <SideBar />
-      </div>
+<div>
+<BrowserRouter>
+<Routes>
+  <Route path="/" element={<Home />} />
+</Routes>
+
+</BrowserRouter>
+</div>
     </>
   );
 }
