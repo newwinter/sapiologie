@@ -15,7 +15,7 @@ const menus = [
   {name: "Marketplace", link:"/", icon:GiEarthAfricaEurope}
 ]
 
-const [open, setOpen] = useState(true);
+const [open, setOpen] = useState(false);
 
   return (
     <>
